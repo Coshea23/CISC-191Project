@@ -1,3 +1,34 @@
+/**
+ * WordPuzzleGame.java
+ * 
+ * This class represents the main frame for the Word Guessing Game, providing a 
+ * graphical user interface (GUI) where players can input their guesses to reveal 
+ * letters in a hidden word. The game uses Swing components to display the game 
+ * status, manage player input, and update the game view.
+ * 
+ * Dependencies: 
+ * - javax.swing and java.awt packages for creating the GUI.
+ * - Requires GuessButtonListener for handling the guess button action.
+ * 
+ * Attributes:
+ * - displayLabel: Displays the current state of the guessed word.
+ * - guessedWord: Holds the player's current progress in guessing the word.
+ * - messageLabel: Displays feedback messages for each guess.
+ * - selectedWord: Stores the current word to be guessed.
+ * - input: A text field for player input.
+ * - wordList: A list of words for the game.
+ * 
+ * Methods:
+ * - initializeWordList(): Initializes the word list with predefined words.
+ * - getDisplayWord(): Returns the current guessed word as a string.
+ * - selectNewWord(): Selects a random word from the word list and initializes the display.
+ * - checkGuess(char guessedChar): Checks if the guessed character is in the word and updates the game view.
+ * - main(String[] args): Entry point to launch the game.
+ * 
+ * Author: Javier & Christopher
+ * Date: 29 Oct 24
+ * 
+ */
 import java.awt.BorderLayout;
 
 import javax.swing.*;
