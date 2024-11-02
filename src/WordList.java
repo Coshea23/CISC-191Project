@@ -1,3 +1,22 @@
+/**
+ * WordList.java
+ * 
+ * This class manages a list of words for a Word Guessing Game, providing functionality
+ * to initialize a default list of words, retrieve a random word, and add new words to the list.
+ * It serves as the data provider for possible guesses in the game.
+ * 
+ * Package: com.wordgame
+ * 
+ * Methods:
+ * - getRandomWord(): Returns a randomly selected word from the list.
+ * - addWord(String word): Adds a specified word to the list.
+ * - printWordList(): Prints all words in the list (for testing purposes).
+ * - main(String[] args): Tests the functionality of the WordList class.
+ * 
+ * Author: Christopher & Javier
+ * Date: 25 Oct 2024
+ * 
+ */
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
